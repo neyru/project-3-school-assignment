@@ -456,4 +456,26 @@ li {
   color: var(--color-light);
 }
 
+.contact {
+  background-color: var(--color-light);
+  height: 100vh;
+  display: grid;
+  padding: 32px;
+  color: var(--color-light);
+}
+.contact__inner {
+  background-color: #000;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
+.contact__main {
+  background-color: coral;
+  grid-column: 1/2;
+}
+.contact__social {
+  background-color: burlywood;
+  grid-column: 2/3;
+}
+
 /*# sourceMappingURL=style.css.map */
