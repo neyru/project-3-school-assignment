@@ -15,10 +15,16 @@
     &__main {
         background-color: coral; //temp
         grid-column: 1 / 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     &__social {
         background-color: burlywood; //temp
         grid-column: 2 / 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

@@ -472,10 +472,16 @@ li {
 .contact__main {
   background-color: coral;
   grid-column: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .contact__social {
   background-color: burlywood;
   grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
