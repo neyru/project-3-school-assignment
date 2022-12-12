@@ -2,6 +2,7 @@
 @use '../../utilities/responsive';
 
 .hero {
+    scroll-snap-align: start; //temp
     background-color: var(--color-light);
     height: 100vh;
     display: grid;
