@@ -523,6 +523,7 @@ li {
   font-size: clamp(1rem, 5vw, 2.125rem);
   font-family: var(--font-sarif);
   color: var(--color-light);
+  font-style: italic;
   margin: 0;
   margin-bottom: var(--gap-xl);
 }
