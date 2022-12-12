@@ -464,24 +464,45 @@ li {
   color: var(--color-light);
 }
 .contact__inner {
-  background-color: #000;
+  position: relative;
+  background-color: var(--color-dark);
+  background-image: url(../../../assets/images/contact-backgroundimage.jpg);
+  background-size: cover;
+  background-position: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
 }
+.contact__overlay {
+  position: absolute;
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(34, 34, 34, 0.349);
+}
 .contact__main {
-  background-color: coral;
   grid-column: 1/2;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 }
 .contact__social {
-  background-color: burlywood;
   grid-column: 2/3;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2;
+}
+.contact__qr {
+  width: 90px;
+  height: 90px;
 }
 
 /*# sourceMappingURL=style.css.map */
